@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "titulo": "Pizza con Pina",
+        "descripcion": "Queso, Tomate, Pinapple",
+        "categoria": "mediana",
+        "imagen": "https://www.foodandwine.com/thmb/4qg95tjf0mgdHqez5OLLYc0PNT4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg",
+        "precio": 1500
+    },
+    {
+        "id": 2,
+        "titulo": "Pizza con Queso",
+        "descripcion": "Queso, Tomate, Cebolla",
+        "categoria": "mediana",
+        "imagen": "https://atsloanestable.com/wp-content/uploads/2023/06/new-york-style-pizza2.jpg",
+        "precio": 300
+    }
+    ,
+    {
+        "id": 3,
+        "titulo": "Pizza Vegan",
+        "descripcion": "Queso, Eggs, Beef",
+        "categoria": "Family Size",
+        "imagen": "https://www.rainbownourishments.com/wp-content/uploads/2022/01/healthy-vegan-pizza-with-figs-and-caramelized-onions-1.jpg",
+        "precio": 1800
+    },
+    {
+        "id": 4,
+        "titulo": "Pizza con Pina",
+        "descripcion": "Queso, Tomate, Pinapple",
+        "categoria": "mediana",
+        "imagen": "https://www.foodandwine.com/thmb/4qg95tjf0mgdHqez5OLLYc0PNT4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg",
+        "precio": 1500
+    },
+    {
+        "id": 5,
+        "titulo": "Pizza con Queso",
+        "descripcion": "Queso, Tomate, Cebolla",
+        "categoria": "Familiar",
+        "imagen": "https://atsloanestable.com/wp-content/uploads/2023/06/new-york-style-pizza2.jpg",
+        "precio": 300
+    }
+    ,
+    {
+        "id": 6,
+        "titulo": "Pizza Vegan",
+        "descripcion": "Queso, Eggs, Beef",
+        "categoria": "mediana",
+        "imagen": "https://www.rainbownourishments.com/wp-content/uploads/2022/01/healthy-vegan-pizza-with-figs-and-caramelized-onions-1.jpg",
+        "precio": 1800
+    },
+    {
+        "id": 7,
+        "titulo": "Pizza con Pina",
+        "descripcion": "Queso, Tomate, Pinapple",
+        "categoria": "mediana",
+        "imagen": "https://www.foodandwine.com/thmb/4qg95tjf0mgdHqez5OLLYc0PNT4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg",
+        "precio": 1500
+    },
+    {
+        "id": 8,
+        "titulo": "Pizza con Queso",
+        "descripcion": "Queso, Tomate, Cebolla",
+        "categoria": "Small",
+        "imagen": "https://atsloanestable.com/wp-content/uploads/2023/06/new-york-style-pizza2.jpg",
+        "precio": 300
+    }
+    ,
+    {
+        "id": 9,
+        "titulo": "Pizza Vegan",
+        "descripcion": "Queso, Eggs, Beef",
+        "categoria": "Grande",
+        "imagen": "https://www.rainbownourishments.com/wp-content/uploads/2022/01/healthy-vegan-pizza-with-figs-and-caramelized-onions-1.jpg",
+        "precio": 1800
+    }
+]
