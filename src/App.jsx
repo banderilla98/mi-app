@@ -1,23 +1,31 @@
-import ItemDetailContainer from './components/ItemDetailContainer';
-import ItemListContainer from './components/ItemListContainer';
-import Navbar from './components/Navbar';
-import './main.css';
+import ItemDetailContainer from "./components/ItemDetailContainer";
+import ItemListContainer from "./components/ItemListContainer";
+import Navbar from "./components/Navbar";
+import Nosotros from "./components/Nosotros";
+import "./main.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-
-function App()
-{
+function App() {
   return (
     <div>
-      Hola, mundo
-      <Navbar />
-      <ItemListContainer />
+      <BrowserRouter>
+        
+        <Navbar />
 
-      {/* en la siguiente modificacion voy hacer que la lista de abajo de pueda ver cuando haga click en ver mas de un producto haber que show  */}
-      <h4>en la siguiente modificacion voy hacer que la lista de abajo de pueda ver cuando haga click en ver mas de un producto haber que show</h4>
 
-      <ItemDetailContainer itemId={2}/>
+        <Routes>
+          <Route path="/" element={<ItemListContainer/>} />
+          <Route path="/item/:id" element={<ItemDetailContainer />}/>
+          <Route path="/productos" element={ <ItemListContainer/>}/>
+          <Route path="/productos/:categoria" element={<ItemListContainer/>}/>
+          <Route path="/nosotros" element={ <Nosotros /> } />
+        </Routes>
+
+
+
+      </BrowserRouter>
     </div>
-  )
+  );
 }
 
 export default App;
