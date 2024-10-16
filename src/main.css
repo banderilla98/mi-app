@@ -158,14 +158,35 @@
   transition: .2s;
 }
 
-.item-count button:hover, .agregar-al-carrito:hover {
+.item-count button:hover, .agregar-al-carrito:hover, .enviar:hover {
   background-color: white;
   color: black;
 }
 
-.agregar-al-carrito {
+.agregar-al-carrito, .enviar{
   width: auto; /* Fixed typo: "widht" -> "width" */
   height: auto;
   margin-top: 1rem;
   padding: 1rem;
+}
+
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  align-items: flex-start;
+}
+
+.formulario input {
+  padding: .5rem;
+  width: 18rem;
+  border-radius: .5rem;
+  border: 2px solid var(--clr-main)
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 2px solid var(--clr-main);
+  outline: 2px solid var(--clr-main);
 }
